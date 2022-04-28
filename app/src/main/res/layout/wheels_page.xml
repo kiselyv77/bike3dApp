@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="16dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Снятие и установка колес"
+                android:textSize="@dimen/text_big" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Снятие колес – простейшая процедура по обслуживанию байка"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Подготовка:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Переворачиваем велосипед вверх колёсами, ставим его на стенд для
+ремонта. Или же, при отсутствии специальной стойки, просто на руль с
+седлом"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="На дропаутах крепление бывает гайковым и эксцентриковым. В первом случае
+понадобятся два гаечных ключа на 15 мм – одним удерживаем гайку, другим
+аккуратно скручиваем на противоположной стороне. С эксцентриком все
+проще – ослабить гайку-фиксатор и откинуть зажимной рычаг.
+"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Снятие переднего колеса"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Нужно определиться с типом тормозной системы, установленной на
+велосипеде.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Дисковые тормоза не доставят хлопот при снятии колеса. Единственное,
+что стоит учесть, так это то, что гидравлическим тормозам не по нраву
+перевёрнутое положение, ведь в систему может попасть воздух. В таком
+случае тормоза придётся прокачать после всех процедур, произведённых с
+вашим байком"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Ободные тормоза нужно будет расстегнуть, перед тем как снимать
+конструкцию с креплений. Для этого нужно руками сжать рычаги и вывести
+конец троса из хомута, затем развести рычаги в стороны.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Ось втулки крепится к вилке посредством эксцентрика или гаек. В первом
+случае следует просто отвернуть эксцентрик, открутить и вынуть колесо из
+концов вилки, аккуратно потянув его вверх. Во втором — при помощи
+гаечного ключа открутить гайку, для удобства во время откручивания
+можно придерживать её вторым ключом"
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Установка переднего колеса"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Вставляем колесо в пазы рамы до упора. Здесь важно не перепутать
+положение конструкции — направление, в котором будет происходить
+вращение, обозначено стрелками на покрышках.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Прикручиваем на место гайки или эксцентрики. Сильно перетягивать
+нельзя, но фиксация должна быть достаточно крепкой.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Застёгиваем обратно ободные тормоза.Ставим на место ободные тормоза"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Переворачиваем велосипед в обычное его положение."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Снятие заднего колеса"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Ослабить тормоза – разжать и свести рычаги навстречу один к другому,
+затем – поднять фиксатор поворота.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Ослабить цепь – прокрутить колеса как можно сильнее, установив на самые
+маленькие звездочки сзади и спереди"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Если у покрышек большой диаметр либо крупный протектор – выпустить
+воздух.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Перевернуть велосипед, установив на специальную стойку или просто на
+пол. Главное, чтобы упор на руль и сиденье был устойчивым, и байк не
+заваливался. Однако, если он оснащен гидравлической тормозной системой,
+такое положение крайне нежелательно, поскольку высока вероятность,гидролинию проникнет воздух. Держать вверх колесами байк нужно как можно
+меньше.
+"
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Установка заднего колеса"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Надеть велосипедную цепь на наименьшую звездочку. Вставить колесо в
+крепление корпуса, стараясь попасть как можно точнее. Проверить,
+зафиксировалась ли деталь правильно.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Гаечные крепления затянуть с помощью ключа, у велосипеда с
+эксцентриком – повернуть рычажок в обратном направлении.
+"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Если у байка ободная тормозная система – закрепить ее, четко
+отзеркаливая последовательность операций демонтажа, чтобы обеспечить
+безопасность при движении."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="В завершение нужно обязательно протестировать все механизмы
+велосипеда. При выявлении недостатков – снять колеса и повторить все
+сначала. Пренебрегать проверкой не стоит, ведь состояние байка напрямую
+влияет на безопасность. Удостоверившись, что все сделано правильно, –
+прикрутить к велосипеду снятые ранее аксессуары.
+"
+                android:textSize="@dimen/text_primary" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

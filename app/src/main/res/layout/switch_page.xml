@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="16dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как отрегулировать на велосипеде переключение скоростей?"
+                android:textSize="@dimen/text_big" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Система переключения передач является не только одной из самых важных, но и самых уязвимых частей велосипеда. При регулярном катании ее регулировка должна осуществляться не реже, чем 1 раз на 400-500 км (примерно 2-4 месяца езды). В данной статье мы поговорим о том, как настроить переключатель скоростей на велосипеде самостоятельно."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Когда нужно производить настройку системы переключения скоростей?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как правило, регулировка скоростей осуществляется в следующих случаях."
+                android:textSize="@dimen/text_primary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1)Вы купили какой-либо новый элемент системы и установили его на свой байк."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2)У вас новый велосипед, который не был настроен с коробки. "
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3)Какой-либо элемент системы переключения передач вышел из строя."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="4)Велосипед имеет большой пробег, и система не отрабатывает так, как должна это делать.  "
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Подготовка"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Перед настройкой лучше полностью очистить систему от налипшей грязи, остатков старых смазочных материалов и прочих загрязнений. Кроме того, лучше предварительно осмотреть все элементы на наличие каких-либо повреждений и в случае их наличия подготовить запчасти для замены."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Помимо этого, рекомендуем заранее подготовить все необходимые инструменты:"
+                android:textSize="@dimen/text_primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Отвертка"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Набор шестигранных ключей."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Пассатижи."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как настроить передний переключатель?"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/perekl_per" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Установите скорости на велосипеде таким образом, чтобы цепь находилась на самой большой звезде каретки спереди и на самой маленькой — сзади."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Освобождаем трос, идущий от ручки переключения, выкручивая соответствующий болт."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Регулируем винт L таким образом, чтобы цепь при вращении колес двигалась максимально близко к внутренней рамке переключателя, но при этом не задевала ее."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Аналогично подкручиваем винт H, но теперь смотрим, чтобы цепь находилась максимально близко к наружной рамке, но также не задевала ее при вращении."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Натягиваем тросик перекидки обратно. "
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="После этого приступаем к настройке переброса цепи. Для этого потребуется регулировка специального барабана на манетке. Практическим путем, перекидывая цепь со звезды на звезду, ищем положение, при котором эта процедура будет отрабатывать максимально быстро и плавно."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="В среднем такая процедура у неопытного мастера займет от 30 до 60 минут времени. Но это еще не все — для нормальной работы системы переключения следует также настроить и задние скорости."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как настроить задний переключатель на велосипеде? "
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/switch_image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Устанавливаем на велосипеде скорость таким образом, чтобы цепь оказалась на самой маленькой звезде. "
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Послабляем трос переключения, откручивая винт зажима, который расположен на заднем переключателе."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="С помощью переднего переключателя скоростей устанавливаем цепь на среднюю звезду передней каретки."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Начинаем вращать педали. Если цепь при движении начинает спадать, следует подкрутить винт ограничителя верхних передач, который обозначается буквой H. В конечном счете самая маленькая звезда на передней каретке и перекидка должны стать в одну линию."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Натяните трос и зафиксируйте его болтом."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Проверяем работу переключателя, меняя скорость от самой маленькой до наибольшей. Если где-то переключение осуществляется неправильно, нужно регулировать натяжку троса, проворачивая специальный барабан на манетке. "
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Обязательно помните, что любые действия с тросами лучше выполнять не спеша и очень осторожно. При закручивании или откручивании болтов следует делать не более одного оборота за раз."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Как продлить срок службы переключателей скоростей?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="К сожалению, полностью избежать обслуживания и регулировки переключателя скоростей вам не удастся — эту процедуру вам придется проделывать регулярно, независимо от того, с какой интенсивностью и в каком стиле вы катаетесь. Но существует парочка советов, которые позволят вам отсрочить этот момент, сохранив работоспособность системы на максимально долгий срок."
+                android:textSize="@dimen/text_primary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Переключайте скорости на велосипеде только в движении — это позволит снизить износ элементов системы."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Смену скорости лучше осуществлять при высокой скорости вращения педалей — это позволит минимизировать нагрузку на цепь и другие элементы."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Лучше переключиться на нужную передачу перед спуском или подъемом — регулировка скоростей при движении по наклонной поверхности изнашивает систему."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Старайтесь исключать сильных перекосов цепи — это сокращает срок ее службы. Так, например, в 24-скоростных системах 1-й маленькой звезде спереди должна соответствовать 1-4-я сзади, 2-й звезде спереди — 4-6-я на задней, а 3-й — 6-8-я на задней. "
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Следуя этим несложным правилам, вы сможете продлить безремонтный срок эксплуатации системы переключения передач на вашем велосипеде."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="В качестве резюме хотелось бы отметить, что настройка передач — это не самая простая задача и далеко не каждый сможет справиться на должном уровне. Поэтому, если вы не уверены в своих силах на все 100%, лучше доверить это дело профессионалу!"
+                android:textSize="@dimen/text_primary" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

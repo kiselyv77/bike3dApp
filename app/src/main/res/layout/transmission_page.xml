@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="16dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Обслуживание велосипедной трансмиссии. Когда нужно менять цепь, кассету и передние звезды."
+                android:textSize="@dimen/text_big" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Со временем любая велосипедная цепь исчерпывает свой ресурс. Вслед за ней, пусть и не так быстро, изнашиваются передние звезды и задняя кассета. С отработавшей трансмиссией сначала теряется точность переключения скоростей, а затем начинаются более серьезные проблемы, с которыми забываешь не только о скорости, но и комфортном катании как таковом. Элементы трансмиссии — это расходники. Причем, если говорить о звездах, — недешевые расходники. Насколько долго они прослужат — зависит от того, как велосипедист следит и ухаживает за трансмиссией своего байка. Обо всем этом — наш сегодняшний разговор."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Трансмиссия это это технические компоненты, при помощи которых усилия от ног человека передаются на колеса. В трансмиссию многоскоростного велосипеда входят: цепь, набор задних звезд (кассета), передние звезды + два переключателя скоростей (спереди и сзади)."
+                android:textSize="@dimen/text_primary" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/transmission" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Цепь — самый уязвимый компонент трансмиссии"
+                android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Велосипедная цепь состоит из множества звеньев, соединенных между собой штифтами (пинами).
+
+Устройство цепи
+Под воздействием постоянных нагрузок металлические пины растачивают свои посадочные отверстия. В результате длина каждого звена немного увеличивается: буквально на долю миллиметра, но если учесть, что в среднем их 112-114 штук, итоговое увеличение длины дает о себе знать.
+
+Растянутая цепь перестает нормально ложиться на звезды, из-за чего начинаются проблемы. Как быстро произойдет износ цепи — это зависит, во-первых, от того как часто катаются на велосипеде, во-вторых — насколько хорошо ухаживают за цепью. Грязь, пыль и другие микрочастицы, скапливающиеся на неухоженной трансмиссии, работают как абразив, который улучшает вышеописанный процесс расточки. Таким образом неухоженная цепь «умирает» в разы быстрее."
+                android:textSize="@dimen/text_primary" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/chain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="К чему приводит езда на изношенной цепи?"
+                android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Мы выяснили, что когда звенья становятся длиннее, они уже не могут ложиться на зубья передних и задних звезд как следует. В результате отслужившая свое цепь начинает менять (подтачивать) профиль звезд, постепенно приводя их в негодность. Если не предпринимать никаких мер и продолжать кататься, износ всей трансмиссии будет прогрессировать."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Причины ускоренного износа цепи"
+                android:textSize="24sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Понятно, что главные недоброжелатели трансмиссии — это грязь, песок и отсутствие элементарного ухода (выше мы объяснили почему). Эти факторы в большей степени критичны для MTB, чья стихия преимущественно бездорожье, и в меньшей — для шоссейников и городских велосипедов. Даже если вы ездите преимущественно по асфальту, это вовсе не освобождает от ухода за трансмиссией, просто это можно делать немного реже. Чтобы упростить себе жизнь, рекомендуем подумать о специальных инструментах для ухода за трансмиссией, которые превращают не самую приятную процедуру в быстрое и относительно чистое занятие."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Вторая причина преждевременного износа цепи — неправильное переключение скоростей. Этим страдают преимущественно неопытные велосипедисты, которые еще не успели до конца вникнуть в тонкости обращения с передачами. Кто-то просто не понимает логики переключения, кого-то это отвлекает от дороги, а кому-то «и так нормально». Игнорировать переключение скоростей — ненормально. От этого страдают колени, комфорт катания и технические компоненты."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Здесь мы будем говорить только о трансмиссии. Неправильное обращение со скоростями дает перекос цепи. Наиболее сильное искривление происходит, когда спереди и сзади цепь лежит на маленьких звездах или, наоборот, — на самых больших. Обе ситуации показаны на схеме. Сразу скажем, что такие критичные ошибки допускают преимущественно начинающие райдеры."
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/perecos" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как контролировать износ цепи"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Итак, главное — не допускать критического износа цепи и вовремя ее менять. Так вы не только сможете наслаждаться точной работой трансмиссии, но и продлите срок службы кассеты и звезд, сэкономив попутно немало денег. Проверять растяжение звеньев проще всего при помощи вот такого измерительного калибра."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Большинство калибров показывает степень удлинения цепи в процентах: 0/0.5/0.75/1. Пользоваться таким измерителем — просто. Сначала внимательно смотрим маркировку на калибре и выбираем сторону с меньшими значениями."
+                android:textSize="@dimen/text_primary" />
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kalibr" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1 Если измеритель ориентирован стороной от 0.5 до 0.75 и не проваливается между звеньями — с цепью все в порядке."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2. Если калибр, ориентированный этой же стороной (от 0.5 до 0.75), проваливается между звеньев — время думать о замене цепи."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3. Если измеритель проваливается со стороны от 0.75 до 1 — цепь давно отслужила свой ресурс. Скорее всего, она уже начала съедать и кассету, поэтому нужно внимательно рассмотреть задние звезды на предмет сточенности зубьев (как это делать — ниже)."
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="4. Если калибр не просто проваливается, но и свободно люфтит между звеньев — все очень запущено. Велика вероятность, что сильно изношенная цепь успела «съесть» как кассету, так и передние звезды."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Уход за цепью: три серьезных ошибки"
+                android:textSize="24sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1.Обработка неспециализированными смазками. Обслуживать цепь нужно исключительно велосипедными составами. Завалявшееся масло для швейной машинки или банка отработки, найденная в гараже, — все это не подходит. Такие смазки плохо держатся и быстро вырабатываются, а отсутствие антистатических компонентов приводит к мгновенному налипанию грязи и пыли."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2.Нанесение густых смазок. Зачем покупать тефлоновую или восковую велосмазку, когда есть целая банка литола или солидола? Ведь она и дешевле, и гуще и будет дольше держаться. Это все так, но делать этого не стоит. Густая смазка хороша для закрытых механизмов. На цепи же она будет только притягивать пыль, грязь и песок, ускоряя таким образом расточку из-за усиления абразивного эффекта."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3.Смазка цепи WD-40. Вэдэшка — очень полезная вещь, но использовать ее для смазки велосипедной цепи неправильно. В первую очередь — это растворитель, предназначенный для смывания грязи и ржавчины. Легкие масла входят в ее состав, но смазочный эффект этого аэрозоля не идет ни в какое сравнение с профессиональными смазками — цепь очень быстро становится сухой и незащищенной. В то же время WD-40 имеет смысл использовать для чистки трансмиссии перед смазкой, но нужно следить за тем, чтобы аэрозоль не попадал на тормозной диск или обод (если стоят вибрейки)."
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как изнашиваются звезды"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Цепь, которая отработала свой ресурс, начинает уничтожать звезды. Этот процесс происходит не быстро, и даже если калибр показывает растяжение на 0.5—0.75% это вовсе не означает, что нужно менять все элементы трансмиссии. Как долго можно продолжать ездить без последствий — это зависит от того, где и как вы катаетесь. На хороших асфальтовых дорогах растянутая цепь начнет стачивать звезды позже, на бездорожье с перепадами высот — раньше."
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Тем не менее, если не менять цепь, проблемы обязательно начнутся. Растянутые звенья не смогут нормально ложиться на зубья звезд и будут растачивать их под свою посадку. Цепь продолжит растягиваться, а металл — стачиваться сильнее. Начнет появляться лязг, самопроизвольно переключаться передачи, педали периодически будут давать прокручивание. Когда вы поставите на такие звезды новую цепь, она уже не сможет нормально работать, поскольку посадочные места будут необратимо расточены."
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="В первую очередь износу подвержены самые популярные передачи, как правило, это средняя звезда спереди и звезды среднего диапазона на кассете. Здесь мы возвращаемся к тому, что было сказано выше: чем реже велосипедист переключает скорости, тем быстрее трансмиссия «выкатывает» свой ресурс."
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/iznos_zvezd" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Как определить износ передних звезд"
+                android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Сделать это на глаз весьма непросто. Точнее, это будет хорошо заметно, но уже на последней стадии их жизни, когда им уже мало чем поможешь, кроме замены. По мере стачивания зубья принимают т.н. форму акульего зуба."
+                android:textSize="@dimen/text_primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Но даже до того, как изменения станут заметны невооруженным взглядом износ передних звезд можно определить по ряду признаков. Шумный ход и неровное переключение спереди даже в свежесмазанном состоянии — один из первых звоночков."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Среднюю степень изношенности обычно определяют по следующим признакам. Для самой маленькой звезды спереди — это налипание цепи. То есть, если поставить новую цепь и внимательно следить за тем, как она проходит по звезде, на сточенных зубьях она будет плохо сниматься, как бы прилипая к ним. А вот об износе большой звезды свидетельствует ее неровная работа: переключение происходит либо неточно, либо с большим усилием, и этот эффект невозможно исправить настройкой переключения передач."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="При полном износе зубья спереди принимают выраженный профиль акульего зуба и, если поставить на них новую цепь, между звеньями и звездой будет виден просвет. Кроме как заменой, таким звездам уже мало чем поможешь, причем, скорее всего, придется менять и кассету."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Как определить износ кассеты"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/iznos_kassety" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Заметить на глаз износ зубцов, прежде чем кассета окончательно исчерпает свой ресурс — довольно сложно. Наиболее очевидный признак — проскакивание только что замененной цепи по задним звездам. Обычно это происходит под нагрузкой при силовом педалировании и только на тех скоростях, которые используются чаще всего."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Определить износ кассеты можно и визуально. Даже у тех, кто правильно работает с переключением и задействует весь диапазон кассеты, задние звезды не изнашиваются равномерно. Задача велосипедиста — внимательно рассмотреть, насколько сильно выражена эта разница. Обычно «заезженные» звезды кассеты отличаются более острой и тонкой формой зуба. Если такая разница очевидна, и в дополнение к этому время от времени на проблемных передачах происходит проскакивание — кассета откатала свое и требует замены."
+                android:textSize="@dimen/text_primary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Еще один велосипедный лайфхак, как узнать износ кассеты — зажать задний тормоз и рукой дать приличную нагрузку на педали. Удобнее это делать, когда велосипед зафиксирован на стойке. Если новая цепь немного сползает вверх, скорее всего, зубья звезды изношены и кассета требует замены."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Эти несложные, но очень важные советы помогут продлить ресурс велосипедной трансмиссии дольше наслаждаться точной работой всех механизмов."
+                android:textSize="@dimen/text_primary" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

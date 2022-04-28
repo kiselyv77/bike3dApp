@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="16dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Обслуживание велосипедной вилки"
+                android:textSize="@dimen/text_big" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Для обеспечения эффективной работы, безопасности использования и долгой жизни вилки важно следить за ее состоянием, а также периодически проводить техническое обслуживание (ТО)"
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Каждому пользователю необходимо периодически мыть и осматривать вилку для контроля ее состояния, проверяя при этом:"
+                android:textSize="@dimen/text_primary" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="не появились ли царапины, потертости, вмятины или другие следы на рабочей поверхности ног вилки;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="целостность сальников ног, их эластичность, нет ли на них трещин или надрывов;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="состояние дропаутов;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="давление в воздушных камерах;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="наличие и величину поперечного люфта ног вилки в «штанах»;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="нет ли потеков масла вокруг сальников, крепежных болтов внизу «штанов» вилки и ручек регулировок;"
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Кроме ухода, внешней чистки и осмотра необходимо выполнять плановые работы по ТО вилки, связанные с ее полной либо частичной разборкой. Это относится к чистке и инспекции состояния внутренних узлов и элементов вилки (бушингов, воздушных камер, пружин, демпферов), замене масла, сальников ног вилки, смазке либо замене внутренних уплотнений и т.д."
+                android:textSize="@dimen/text_primary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Рекомендуемые производителем интервалы проведения необходимых операций по уходу и обслуживанию обычно приводятся в инструкции пользователя  конкретной вилки. Однако следует помнить, что периодичность проведения ТО зависит от условий и интенсивности эксплуатации вилки. Поэтому постоянное использование вилки в тяжелых условиях (соревнования, походы, езда при неблагоприятных погодных условиях, в грязи, зимой и т.п.) может потребовать более частого проведения ТО."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Премерные интервалы обслуживания:"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Очистка верхних труб от загрязнений: после каждой поездки;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Смазка сальников и пыльников: каждые 10 часов;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Чистка и проверка сальников, замена масла в штанах (малое ТО вилки): каждые 50 часов;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Замена масла в демпфирующей система (полное ТО вилки): каждые 100 часов;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Чистка и смазка пружинного узла (полное ТО вилки): каждые 100 часов"
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Подготовка"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Велосипед удобнее установить вверх ногами или закрепить в подвесе, если он есть;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="Демонтировать нужно все навесное оборудования, как гидролинии и тросы тормозов, датчики бортовых компьютеров, крыло, багажные емкости."
+                    android:textSize="@dimen/text_primary" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:background="@drawable/card_background_2"
+                android:text="Часто в стакане рулевой колонки используются насыпные подшипники или открытые с сепаратором. При разборке их легко потерять, потому нужно заранее подготовить небольшую емкость для сборки шариков"
+                android:textSize="@dimen/text_primary" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:background="@drawable/card_background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_primary"
+                        android:text="Шаг 1. Ослабляются болты, которые крепят вынос, после этого можно выкрутить болт якоря;"
+                        android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="Шаг 2. Снимается руль на выносе и все, что на нем закреплено. Действовать нужно осторожно, чтобы избежать случайных падений и ударов, которые могут привести как к косметическим повреждениям, так и к реальным поломкам;"
+                    android:textSize="@dimen/text_primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 3. С оси вилки удаляются проставочные кольца. Направляющий конус снимается за счет пропила, который приспособлен для зацепления плоской тонкой отверткой. После этого можно снять подшипник и верхнее кольцо;"
+                        android:textSize="@dimen/text_primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 4. Рулевая труба вытаскивается осторожно. На ней должен остаться нижний подшипник и кольцо. В таком виде намного проще снять колесо. Так как громоздкая рама уже не мешает. Для этой задачи ослабляется эксцентрик или раскручивается ось (в зависимости от типа, шестигранником или рожковым ключом на 15);"
+                        android:textSize="@dimen/text_primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 5. С оси и прочих участков удаляется старая смазка. Ее нужно именно стереть, чтобы упростить дальнейшие этапы, не пачкаться самому и узлы велосипеда. На этих элементах смазку стоит обновить не раньше, чем в процессе сборки;"
+                        android:textSize="@dimen/text_primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 6. Вилка переворачивается, крепления штанов демонтируются и они беспрепятственно снимаются с ног. При необходимости снимаются сальники;"
+                        android:textSize="@dimen/text_primary" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:srcCompat="@drawable/bolti" />
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 7. Теперь стоит удалить смазочные материалы, чтобы не пачкать в процессе инструмент и одежду. Этап не обязателен, но практика показывает его состоятельность. Не забываем в процессе отчистить манжеты, внутреннюю часть штанов;"
+                        android:textSize="@dimen/text_primary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 8. Удаляем ограничители и их упорные элементы, что легко сделать, если просто попытаться стянуть со штоков. Для процесса достаточно небольших физических усилий;"
+                        android:textSize="@dimen/text_primary" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 9. На каждой ноге есть регулировки, их легко открутить специальным инструментом, н опри его отсутствии можно импровизировать, главное не испортить поверхность элементов. Из каждой ноги извлекается шток, а также пружины с эластомерами и крышками;"
+                        android:textSize="@dimen/text_primary" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/margin_small"
+                        android:text="Шаг 10. Все поверхности вилки очищаются. Для этого проще всего использовать бумажные полотенца, которые не оставляют ворс."
+                        android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

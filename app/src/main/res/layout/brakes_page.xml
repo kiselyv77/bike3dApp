@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="16dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="ОБСЛУЖИВАНИЕ ТОРМОЗОВ ВЕЛОСИПЕДА"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Существует несколько видов велосипедных тормозов:"
+                android:textSize="@dimen/text_primary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1)ободные"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2)педальные"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3)дисковые"
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="И дисковые в свою очередь подразделяются на:"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1)Механические, в которых тормозное усилие передается с помощью специального тросика."
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2)И гидравлические, где передача тормозного усилия осуществляется посредством движения жидкости по гидролинии."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Уход за дисковым тормозом должен быть комплексным. И в первую очередь необходимо следить за тем, чтобы сам диск был чистым. А то ведь зазор между ним и колодками достаточно велик, чтобы грязь, пыль и влага, собирающиеся на диске, соскребались торцами колодок и оседали непосредственно на тормозной поверхности. Поэтому при попытке затормозить многие велосипедисты слышать «душераздирающий» скрип и скрежет, скопившаяся грязная масса еще глубже въедается в колодки, а нормального торможения просто не происходит."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Помимо того, что тормозной диск должен быть чистым (без черных разводов, свидетельствующих о том, что колодки уже получили грязную «дозу»), он еще «обязан» быть и ровным. Потому что гнутый диск — прямая угроза безопасности велосипедиста. К счастью, исправить неровности несложно, если, конечно, речь не идет о каких-то глобальных повреждениях."
+                android:textSize="@dimen/text_primary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Процедура выпрямления тормозного диска"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Для того, чтобы выпрямить диск тормоза, из инструментов понадобится только разводной ключ. Сами же ремонтные действия предельно просты: нужно крутить колесо помедленнее и смотреть, в каком месте конкретно диск начинает бить чуть в сторону. Далее надо сам диск зажать с торца и аккуратно разводным ключом выпрямить его в нужную сторону.Таким образом выпрямлять-выгибать диск необходимо только в тех местах, где ребро жесткости соприкасается с его внешним диаметром."
+                android:textSize="@dimen/text_primary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Уход за тормозными колодками"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Плановое обслуживание дисковых тормозов включает в себя объективную оценку состояния тормозных колодок. А иногда они буквально требуют «реанимационных» мероприятий. И есть один очень эффективный способ их буквально «оживить». С помощью пассатижей, спиртовки, наждачки и спирта (в крайне тяжелых обстоятельствах можно, конечно, заменить магазинной водкой, но нежелательно)."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Процесс прокаливания колодок:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red_transparent"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Данная процедура подходит только для металических коллодок!Органические после сильного нагрева придут в негодность."
+                android:textSize="@dimen/text_primary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="спиртовку заправить спиртом и зажечь;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="снятую колодку зажать в пассатижах и прокалить, удерживая над пламенем спиртовки стороной с абразивом (под воздействием жара грязные жирные масла, попавшие в абразив, просто выпариваются;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="прокалить вторую колодку;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="остудить обе колодки;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="наждачкой тонко снять верхний слой абразива с колодок вместе с остатками сухого масла, добиваясь абсолютной ровности обрабатываемой поверхности."
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Устранение зазора в механических тормозах"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Если у вас на велосипеде стоит дисковый тормоз механического типа (к гидравлике подход несколько другой), то убрать зазор, а точнее — устранить некоторую кривизну тормозных колодок, можно правильно закрепив калипер. При условии, что предварительно ликвидирована возможная кривизна диска."
+                android:textSize="@dimen/text_primary" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Для ремонта нужен будет пятый шестигранник, а также еще один человек, который в нужный момент будет давить на ручку тормоза. Процедура следующая:"
+                android:textSize="@dimen/text_primary" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1)ослабить крепежные болты на калипере, которыми последний крепится к адаптеру;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2)с усилием нажать на ручку тормоза;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3)колодки прижмутся к диску и сдвинут калипер как надо, а кривизна ликвидируется;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="4)калипер нужно будет прокрутить в таком положении, не отпуская ручку тормоза — до тех пор, пока и следов кривизны не останется. Вот так. И никакого зазора!"
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="А если калипер без адаптера, то потребуется комплект калибровочных шайб и опять же пятый шестигранник для скручивания болтов (правда, на некоторых тормозах без ключа можно обойтись и скрутить болты прямо вручную)."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:text="Болты аккуратно скручиваются с двух сторон калипера, а колодки подводятся практически вплотную к диску. Получится еле заметный зазор, который не помешает диску крутиться."
+                android:textSize="@dimen/text_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Прокачка гидравлических тормозов"
+                android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:text="Чтобы прокачать гидравлические дисковые тормоза, потребуется гибкий шланг диаметром 2 мм, ключ гаечный на 6, обычный двадцатикубовый шприц, минеральное масло (если на тормозной системе стоит маркировка «mineral oil») или DOT-4 (если ничего не написано), второй шестигранник («2»), а также шестигранник, который позволит ослабить крепеж тормозной ручки на руле."
+                android:textSize="@dimen/text_primary" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_small"
+                android:background="@color/red_transparent"
+                android:text="Если ваши тормоза изначально работали на минеральном масле нельзя заливать DOT, он разъест все уплотнения."
+                android:textSize="@dimen/text_primary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="1)снять заднее колесо;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="2)нажимая на ручку тормоза, установить тормозные колодки максимально плотно к диску (воображаемому или подручной подставке чуть меньшей толщины, чем диск);"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="3)велосипед устанавливается в абсолютно вертикальное положение (на помощь должен придти еще один человек);"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="4)тонким шестигранником выкручивается до упора цилиндровая ось из тормозной ручки;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="5)болт ослабляется, а ручка тормоза устанавливается вертикально;"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text="6)на корпусе тормозной ручки вскрывается пробка (а если ее нету, то просто ослабляются болты на крышке расширительного бачка);"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="7)на штуцере калипера закрепляется гибкий шланг и ключ;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="8)в другой конец шланга вставляется шприц, помпа которого сжата до упора;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="9)ключом штуцер отворачивается на четверть окружности;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="10)в шлаг поступает ДОТ (или масло), который откачивается с помощью шприца (помпа отводится, ДОТ (или масло) высасывается);"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="11)и штуцер необходимо закрыть;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="12)вокруг расширительного бачка на ручке тормоза потребуется намотать ветошь;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="13)шприц освобождается от старого состава и в него набираются новые масло или ДОТ (все 20 кубиков, с запасом);"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="14)выпускается из шприца лишний воздух;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="15)трубка соединяется со штуцером, который открывается ключом;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="16)продавливая шприц очень медленно, необходимо наполнять тормозной контур (до тех пор, пока не польется из расширительного бачка);"
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="17)закрыть штуцер;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="18)закрыть пробку бачка;"
+                    android:textSize="@dimen/text_primary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_primary"
+                    android:text="19)аналогично прокачивается второй контур."
+                    android:textSize="@dimen/text_primary" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/margin_primary"
+                android:background="@drawable/card_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text=""
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text=""
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text=""
+                    android:textSize="@dimen/text_primary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/margin_small"
+                    android:text=""
+                    android:textSize="@dimen/text_primary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

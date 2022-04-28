@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/drawable/card_background.xml" value="0.1225" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/drawable/card_background_2.xml" value="0.138" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/drawable/ic_back.xml" value="0.1645" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/drawable/ripple_effect.xml" value="0.115" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/activity_model.xml" value="0.176" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/brakes_page.xml" value="0.1452370781717215" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/fork_page.xml" value="0.18234562784915043" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/fragment_detail.xml" value="0.536" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/fragment_list.xml" value="0.4" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/item.xml" value="0.4" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/ripple_effect.xml" value="0.175" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/sample_page.xml" value="0.175" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/switch_page.xml" value="0.14005835764902042" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/transmission_page.xml" value="0.264" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/wheels.xml" value="0.2" />
+        <entry key="..\:/Users/Mi/AndroidStudioProjects/bike3dApp/app/src/main/res/layout/wheels_page.xml" value="0.17160367722165476" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
